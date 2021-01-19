@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/letterit/static/css/main.a617e044.chunk.css",
+    "main.js": "/letterit/static/js/main.56d1db76.chunk.js",
+    "main.js.map": "/letterit/static/js/main.56d1db76.chunk.js.map",
+    "runtime-main.js": "/letterit/static/js/runtime-main.48800300.js",
+    "runtime-main.js.map": "/letterit/static/js/runtime-main.48800300.js.map",
+    "static/js/2.5c0c8277.chunk.js": "/letterit/static/js/2.5c0c8277.chunk.js",
+    "static/js/2.5c0c8277.chunk.js.map": "/letterit/static/js/2.5c0c8277.chunk.js.map",
+    "static/js/3.964b6faa.chunk.js": "/letterit/static/js/3.964b6faa.chunk.js",
+    "static/js/3.964b6faa.chunk.js.map": "/letterit/static/js/3.964b6faa.chunk.js.map",
+    "index.html": "/letterit/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/letterit/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.5c0c8277.chunk.js.LICENSE.txt": "/letterit/static/js/2.5c0c8277.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/letterit/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48800300.js",
+    "static/js/2.5c0c8277.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.56d1db76.chunk.js"
+  ]
+}
