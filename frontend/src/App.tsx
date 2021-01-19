@@ -1,26 +1,20 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Button } from "react-bootstrap";
-import logo from './logo.svg';
+import { Form, Button } from "react-bootstrap";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Button disabled variant="outline-info">Disabled</Button>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Form className="mb-2" onSubmit={(e : React.FormEvent<HTMLFormElement>) => e.preventDefault()}>
+          <label htmlFor="#letter">Write your letter:</label>
+          <Form.Control as="textarea"
+              id="#letter"
+          />
+          <Button disabled variant="outline-info">Reset</Button>
+          <Button disabled variant="outline-info">Send</Button>
+        </Form>
       </header>
     </div>
   );
