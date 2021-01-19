@@ -1,4 +1,6 @@
 import React from 'react';
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Button } from "react-bootstrap";
 import logo from './logo.svg';
 import './App.css';
 
@@ -6,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Button disabled variant="outline-info">Disabled</Button>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
